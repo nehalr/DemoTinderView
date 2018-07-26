@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--<item name="android:colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="android:colorControlHighlight">@color/colorControlHighlight</item>-->
+    </style>
+
+
+    <!--Setting Theme for pre-lollipop -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <!--this properties set for Toolbar-->
+    <!--setting overlay theme and secondaryColor of Toolbar-->
+    <style name="myThemeForToolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorSecondary">#fff</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="AppTheme.Base">-->
+
+    <!--</style>-->
+
+
+    <!--&lt;!&ndash;Setting Theme for pre-lollipop &ndash;&gt;-->
+    <!--<style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--&lt;!&ndash;   darker variant for the status bar and contextual app bars &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorControlHighlight">@android:color/white</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;this properties set for Toolbar&ndash;&gt;-->
+    <!--&lt;!&ndash;setting overlay theme and secondaryColor of Toolbar&ndash;&gt;-->
+
+
+
+    <!--<style name="FullscreenTheme" parent="AppTheme">-->
+        <!--<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="android:windowBackground">@null</item>-->
+        <!--<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>-->
+        <!--<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>-->
+    <!--</style>-->
+
+    <!--<style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">-->
+        <!--<item name="android:background">@color/black_overlay</item>-->
+    <!--</style>-->
+
+
+
+    <!--&lt;!&ndash;this properties set for Toolbar&ndash;&gt;-->
+    <!--&lt;!&ndash;setting overlay theme and secondaryColor of Toolbar&ndash;&gt;-->
+    <!--<style name="myThemeForToolbar" parent="ThemeOverlay.AppCompat.Light">-->
+        <!--<item name="android:textColorSecondary">#fff</item>-->
+
+    <!--</style>-->
+
+
+</resources>
